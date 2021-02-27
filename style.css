@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,10 +11,10 @@ html{
 
 .logo{
     width: 150px;
+    height: 100%;
     border-right: lightgray 1px solid;
     padding-right: 10px;
-    margin-left: 5%;
-}
+    }
 
 header nav li{
     display: inline-block;
@@ -23,8 +23,7 @@ header nav li{
 
 header nav ul{
     list-style: none;
-    margin-left: 5%;
-}
+    }
 
 header nav a{
     text-decoration: none;
@@ -36,31 +35,44 @@ header nav {
     margin-top: 10px;
 }
 
-.clearfix::after{
+/* main */
+
+
+.clearfix:after{
     content: '';
     display: table;
     clear: both;
 }
 
-.main-top{
-    background: url(img/banner.jpg);
-    background-position: center;
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    padding-top: 400px;
-    padding-bottom: 50px;
-    
-}
 
-.title{
-    padding: 400px 40% 50px 50px;
-}
+.main-top{
+    background-image: url('img/banner.jpg');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 400px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    }
 
 body *, main > section{
     margin-top: 10px;
     margin-bottom: 10px;
 
+}
+.container{
+    margin: 0 auto;
+}
+
+.lead{
+    color: black;
+    font-weight: bolder;
+}
+
+.subtitle{
+    color: rgb(155, 152, 152);
 }
 
 aside{
@@ -75,34 +87,39 @@ article{
     margin: 0%;
 }
 
+.border{
+    border: 1px solid rgba(0, 0, 0, 0);
+}
 
-article > img
-aside > img{
+col{
+    width: 25%;
+}
+
+.float-left{
+    float: left;
+}
+
+.col-center{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.imgcent{
+    width: 100%;
+}
+
+img{
+    height: 250px;
     width: 100%;
 }
 
 footer{
     text-align: center;
+    padding: 20px;
 }
 
 footer > span{
     color: red;
 }
 
-.main-img{
-    height: 200px;
-    background-position: center;
-    background-size: contain;
-    /* overflow: hidden; */
-    }
-
-.overlay{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.2;
-}
-
-.jumbotron{
-    padding: 400px 40% 50px 50px;
-}
