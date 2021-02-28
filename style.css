@@ -1,7 +1,8 @@
 *{
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html{
@@ -44,26 +45,51 @@ header nav {
     clear: both;
 }
 
+h2.lead{
+    padding-top: 30px;
+}
+
+p.subtitle{
+    padding-bottom: 30px;
+    color: gray;
+}
 
 .main-top{
     background-image: url('img/banner.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: #FFFFFF;
     font-size: 50px;
     font-weight: normal;
-    line-height: 400px;
-    text-align: center;
-    width: 100%;
-    height: 500px;
+    height: 550px;
     }
 
-body *, main > section{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.title{
+    padding-top: 350px;
+    color: white;
+    font-size: 50px;
+}
+.stitle{
+    font-size: 30px;
+}
+
+.main-top .transbox{
+    background-color: #0c0b0b80;
+    opacity: 0.4;
+    height: 550px;
+    margin: 0%;
+}
+
+h2{
+    margin: 0;
+    padding: 0%;
 
 }
+
 .container{
     margin: 0 auto;
+    width: 100%;
 }
 
 .lead{
@@ -71,9 +97,6 @@ body *, main > section{
     font-weight: bolder;
 }
 
-.subtitle{
-    color: rgb(155, 152, 152);
-}
 
 aside{
     width: 25%;
@@ -89,10 +112,50 @@ article{
 
 .border{
     border: 1px solid rgba(0, 0, 0, 0);
+    
+}
+
+.foto1{
+    background-image: url('img/img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 300px;
+}
+
+.foto2{
+    background-image: url('img/banner-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 300px;
+}
+
+.foto3{
+    background-image: url('img/img-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    height: 300px;
+}
+
+section .transbox{
+    background-color: #0c0b0b80;
+    opacity: 0.4;
+    height: 100%;
+    margin: 0%;
+    border-radius: 10px;
 }
 
 col{
     width: 25%;
+}
+
+h3{
+    padding: 10px 0 10px 0;
 }
 
 .float-left{

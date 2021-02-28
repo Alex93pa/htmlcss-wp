@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Layout</title>
 </head>
 
@@ -24,12 +26,12 @@
         </nav>
     </header>
     
-    <main>
+    <main class="container border">
         <section class="main-top">
-            <title class="title">
-                <h2>Pretium ac placerat</h2>
-                <p></p>
-            </title>
+            <div class="transbox">
+                <h2 class="title">Pretium ac placerat</h2>
+                <p class="stitle">Lorem ipsum dolor sit amet.</p>
+            </div>
         </section>
 
     <!-- secondo blocco grande -->
@@ -41,11 +43,12 @@
             </div>
 
             <div class="container border clearfix">
+
     <!-- primo quadrato -->
                 <aside class="col border float-left">
-                    <div>
-                        <img src="img\img-1.jpg" alt="">
-                    </div>
+                    <section class="foto1">
+                        <div class="transbox"></div>
+                    </section>
                     <div class="description">
                         <h3>lorem</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus voluptatibus, explicabo aspernatur nostrum laudantium repellat sunt placeat eum sint ad culpa enim! Assumenda modi suscipit labore enim voluptates impedit!</p>
@@ -54,14 +57,18 @@
 
     <!-- secondo centrale -->
                 <article class="border col-center float-left">
-                    <img src="img\banner-2.jpg" class="imgcent" alt="">
+                    <section class="foto2">
+                        <div class="transbox"></div>
+                    </section>
                     <h3>lorem</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eveniet dolore perspiciatis delectus numquam unde possimus in cumque earum nam provident sed dolorum explicabo nostrum, beatae praesentium voluptatibus et Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis expedita minus, praesentium accusamus eveniet eligendi tempora facere at fugit distinctio, nam nihil voluptates omnis, eum vero! Ipsam et dolorem delectus! </p>
                 </article>
 
     <!-- terzo quadrato -->
                 <aside>
-                    <img src="img\img-3.jpg" alt="">
+                    <section class="foto3">
+                        <div class="transbox"></div>
+                    </section>
                     <h3>lorem</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nemo atque fugit accusantium iste dignissimos reprehenderit delectus, ipsa enim dolorum eveniet quod porro cum dolore hic, asperiores rem, fuga voluptatibus?</p>
                 </aside>
